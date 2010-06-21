@@ -125,7 +125,7 @@
                     The example colors digits prefixed by foo. (only the digits)             
                 -->    
 
-				<regex>(.*):</regex>
+				<regex>^(.*?):</regex>
 
             </keywords>
 
@@ -148,15 +148,10 @@
     
     
             <state id="Comment" color="#236E25" font-style="italic">
-                <begin><regex>/\*</regex></begin>
-                <end><regex>\*/</regex></end>
-            </state>
-            
-            <state id="SingleComment" color="#236E25" font-style="italic">
-                <begin><regex>//</regex></begin>
+                <begin><regex>(?:^|\s)#</regex></begin>
                 <end><regex>[\n\r]</regex></end>
             </state>
-            
+
             <state id="String" color="#760f15">
                 <begin><regex>"</regex></begin>
                 <end><regex>(((?&lt;!\\)(\\\\)*)|^)"</regex></end>
