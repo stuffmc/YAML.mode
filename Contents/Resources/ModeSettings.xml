@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <settings>
-  <template>mytemplate.txt</template>   <!-- Provide a template for File->new -->
+  <template>untitled.yml</template>   <!-- Provide a template for File->new -->
   <recognition>
     <extension>yml</extension>                   <!-- Add file extensions -->
     <extension>yaml</extension>
