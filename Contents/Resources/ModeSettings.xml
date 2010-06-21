@@ -3,6 +3,7 @@
   <template>mytemplate.txt</template>   <!-- Provide a template for File->new -->
   <recognition>
     <extension>yml</extension>                   <!-- Add file extensions -->
+    <extension>yaml</extension>
     <extension casesensitive="yes">C</extension> <!-- Add case sensitive file extensions -->
   </recognition>
 </settings>
