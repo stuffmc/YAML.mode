@@ -6,7 +6,7 @@ h2. Usage
 
 h3. Installation
 
-Simply check out this repo into either <code>~/Library/Application Support/Coda/Modes</code> or <code>~/Library/Application Support/SubEthaEdit/Modes</code>, be sure to name the directory <code>HAML.mode</code>.
+Simply check out this repo into either <code>~/Library/Application Support/Coda/Modes</code> or <code>~/Library/Application Support/SubEthaEdit/Modes</code>, be sure to name the directory <code>YAML.mode</code>.
 
 h2. Author
 
