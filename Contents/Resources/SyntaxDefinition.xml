@@ -212,6 +212,17 @@
             -->    
             <state-link state="PHP" mode="PHP-HTML" />
 
+            <state id="Ruby" color="#000000" inverted-color="#ffffff"  font-style="normal" font-weight="normal" usesymbolsfrommode="Ruby" useautocompletefrommode="Ruby">
+                <begin><regex>(?:&lt;%=?)</regex></begin>
+                <end><regex>(?:-?%&gt;)</regex></end>
+                <import mode="Ruby" />
+
+                <keywords id="ERB Delimiter" color="#d00000" inverted-color="#ff2f2f"  font-style="normal" font-weight="normal" useforautocomplete="no">
+                    <regex>(-?%&gt;)</regex>
+                    <regex>(&lt;%=?)</regex>
+                </keywords>
+            </state>
+
         </default>
         
     </states>
